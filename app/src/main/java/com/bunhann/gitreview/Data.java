@@ -20,4 +20,8 @@ public class Data {
     public void setAge(int age) {
         this.age = age;
     }
+    public int sumValue(int sum1,int sum2){
+        int totalSum=sum1+sum2;
+        return totalSum;
+    }
 }
